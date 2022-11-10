@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карты</title>
+    <style>
+        .cards {
+             position: absolute;
+             left: 50%;
+             top: 50px;
+             transform-origin: 50% 100%;
+        }
+        .card1 { 
+             transform: rotateZ(-15deg);
+        }
+        .card3 {
+             transform: rotateZ(15deg);
+        }
+        .cards:hover {
+             z-index: 2;
+        }
+    </style>
+</head>
+<body>
+        <img src="https://webref.ru/assets/files/3.png" alt="карта" class="card1 cards">
+        <img src="https://webref.ru/assets/files/7.png" alt="карта" class="card2 cards">
+        <img src="https://webref.ru/assets/files/ace.png" alt="карта" class="card3 cards">
+</body>
+</html>
